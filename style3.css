@@ -1,0 +1,68 @@
+     body {
+         background-image: url(../images/WhatsApp\ Image\ 2025-11-21\ at\ 17.38.28_afd822ef.jpg);
+     }
+
+     .arabic_letters {
+         min-height: 100vh;
+         text-align: center;
+         align-items: center;
+         background-position: center;
+         background-repeat: no-repeat;
+         padding: 30px 70px;
+     }
+
+     .arabic_letters h2 {
+         font-size: 350%;
+         color: rgb(187, 32, 112);
+         margin-bottom: 20px;
+     }
+
+     .arabic_letters .container {
+         display: flex;
+         background-blend-mode: overlay;
+         background-color: rgba(237, 100, 191, 0.3);
+         flex-wrap: wrap;
+         justify-content: center;
+         direction: rtl;
+         border-radius: 20px;
+         padding: 15px;
+         gap: 15px;
+     }
+
+     .arabic_letters .card {
+         background-color: white;
+         border: solid;
+         padding: 0;
+         border-color: rgb(147, 13, 95);
+         border-radius: 25px;
+         align-items: center;
+         overflow: hidden;
+         box-sizing: border-box;
+         justify-content: center;
+         display: flex;
+         width: 16em;
+         transition: 0.3s;
+     }
+
+     .card img {
+         width: 100%;
+         height: auto;
+     }
+
+     .card:hover {
+         transform: scale(1.12);
+     }
+
+     @media(max-width : 768px) {
+         .arabic_letters {
+             padding: 20px 15px;
+         }
+
+         .arabic_letters h2 {
+             font-size: 250%;
+         }
+
+         .arabic_letters .card {
+             width: 90%;
+         }
+     }
