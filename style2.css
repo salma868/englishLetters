@@ -1,0 +1,65 @@
+body {
+    background-image: url(../images/WhatsApp\ Image\ 2025-11-21\ at\ 17.38.28_afd822ef.jpg);
+}
+
+.letters-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 15px;
+
+
+}
+
+.letter-card {
+
+    background-color: pink;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: 3s;
+    cursor: pointer;
+
+
+
+}
+
+.letter-card:hover {
+
+
+    transform: scale(1.09);
+    background: chocolate;
+}
+
+.letter {
+
+
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.image {
+
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+
+
+}
+
+.word {
+
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1 {
+
+
+
+    text-align: center;
+    margin-top: 30px;
+    color: darkgreen;
+}
