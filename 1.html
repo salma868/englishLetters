@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+</head>
+<body>
+
+
+   <div class="container">
+
+    <div class="button-next">
+        <a href="2.html">next</a>
+    </div>
+ 
+    <div class="container-letter">
+        
+            <div class="letter-image">
+                <p>1</p>
+                <img src="../../images/IMG-20251124-WA0121.jpg" alt="">
+            </div>
+
+            <div class="letter-name">
+                <p>واحد</p>
+            </div>
+
+            <div class="sound">
+
+            <button id="button">اضغط لسماع صوت الرقم</button>
+
+            <audio id="sound">
+              <source src="../../sounds/واحد.mp3" type="audio/mpeg" >
+             </audio>
+            </div> 
+    </div>
+    
+     <div class="button-prev">
+        <a href="10.html">prev</a>
+    </div>
+
+      </div>
+
+    <script>
+    document.getElementById("button").onclick = function () {
+        document.getElementById("sound").play();
+    }
+    </script>
+</body>
+</html>
