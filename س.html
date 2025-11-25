@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+</head>
+<body>
+
+
+   <div class="container">
+
+    <div class="button-next">
+        <a href="ش.html">next</a>
+    </div>
+ 
+    <div class="container-letter">
+        
+            <div class="letter-image">
+                <p>س</p>
+                <img src="../../images/IMG-20251124-WA0090.jpg" alt="">
+            </div>
+
+            <div class="letter-name">
+                <p>سمكه</p>
+            </div>
+
+            <div class="sound">
+
+            <button id="button">اضغط لسماع صوت الحرف</button>
+
+            <audio id="sound">
+              <source src="../../sounds/س.mp3" type="audio/mpeg" >
+             </audio>
+            </div> 
+    </div>
+    
+     <div class="button-prev">
+        <a href="ز.html">prev</a>
+    </div>
+
+      </div>
+
+    <script>
+    document.getElementById("button").onclick = function () {
+        document.getElementById("sound").play();
+    }
+    </script>
+</body>
+</html>
